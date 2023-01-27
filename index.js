@@ -3,6 +3,7 @@ const app = express();
 const handlebars = require('express-handlebars');
 const bodyParser = require('body-parser');
 const Post = require("./models/post");
+const mongoose = require("mongoose")
 
 
 
